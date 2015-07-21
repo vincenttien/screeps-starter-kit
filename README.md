@@ -44,3 +44,6 @@ __password__ : Your [Screeps](http://screeps.com) password
 #### Writing Modules for Screeps
 This can be done within the dist/ folder. 
 
+## License
+
+[WTFPL](./LICENSE).
