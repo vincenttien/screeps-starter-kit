@@ -9,6 +9,7 @@
     "grunt-screeps": "^1.0.3"
   },
   "scripts": {
+    "postinstall": "node setup_config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
