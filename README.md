@@ -24,11 +24,11 @@ Step 3:
 	
     npm install
     
-This should have created a file named screeps.config.json in the project directory.
+This should have created a file named `screeps.config.json` in the project directory.
 
 ## Configuration
 
-Configuration can be done within the file screeps.config.json that the npm postinstall script created. 
+Configuration can be done within the file `screeps.config.json` that the npm postinstall script created. 
 
 __username__ : Your [Screeps](http://screeps.com) email
 
@@ -42,7 +42,7 @@ __password__ : Your [Screeps](http://screeps.com) password
 	
     grunt screeps
 #### Writing Modules for Screeps
-This can be done within the dist/ folder. 
+This can be done within the `dist/` folder. 
 
 ## License
 
