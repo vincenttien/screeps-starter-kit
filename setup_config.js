@@ -4,6 +4,9 @@ var default_obj = {
     username: 'email@address.com',
     password: 'S0m35741n6'
 };
+
+var default_config_name = "screeps.config.json";
+
 function checkConfig(fileName,callback)
 {
     fs.exists(fileName, function (exists) {
@@ -22,7 +25,7 @@ function checkConfig(fileName,callback)
 
 function writeConfig()
 {
-    checkConfig("screeps.config.json",function()
+    checkConfig(default_config_name,function()
     {
        console.log('Exists');
     });
