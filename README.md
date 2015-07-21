@@ -26,7 +26,7 @@ Step 3:
     
 This should have created a file named screeps.config.json in the project directory.
 
-## Congifuration
+## Configuration
 
 Configuration can be done within the file screeps.config.json that the npm postinstall script created. 
 
